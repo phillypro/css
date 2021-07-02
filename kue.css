@@ -1,0 +1,26 @@
+
+@media screen and (min-width: 768px) {
+.homepage-page-sections .react-page-section:nth-child(1) .video-page-section .text-content {
+order:2;
+}
+
+.homepage-page-sections .react-page-section:nth-child(1) .video-page-section .media-content {
+order:1;
+margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.main-nav-container .navbar-logo img {
+    max-width: 240px;
+}
+.homepage-page-sections .react-page-section:nth-child(1) .video-page-section .text-content h1 {
+font-size: 3rem;
+}
+.homepage-page-sections .react-page-section:nth-child(1) .video-page-section .text-content div {
+font-size: 16px;
+}
+.homepage-page-sections .react-page-section:nth-child(1) .video-page-section .media-content {
+padding:0px;
+}
+}
